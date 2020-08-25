@@ -1,0 +1,42 @@
+{
+  "Create Context": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "caccc",
+    "description": "Create Context",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:Name}Context = React.createContext();",
+      "",
+      "const ${1:Name}Provider = ({children}) => {",
+      "\treturn (",
+      "\t\t<${1:Name}Context.Provider value={}>",
+      "\t\t\t{children}",
+      "\t\t</${1:Name}Context.Provider>",
+      "\t);",
+      "}",
+      "",
+      "export { ${1:Name}Context, ${1:Name}Provider };"
+    ]
+  },
+  "Create Context Function": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "caccf",
+    "description": "Create Context Function",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:Name}Context = React.createContext();",
+      "",
+      "function ${1:Name}Provider({children}) {",
+      "\treturn (",
+      "\t\t<${1:Name}Context.Provider value={}>",
+      "\t\t\t{children}",
+      "\t\t</${1:Name}Context.Provider>",
+      "\t);",
+      "}",
+      "",
+      "export { ${1:Name}Context, ${1:Name}Provider };"
+    ]
+  }
+}

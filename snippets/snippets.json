@@ -1,0 +1,30 @@
+{
+  "Create Arrow Function Component": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "caafc",
+    "description": "Create Arrow Function Component",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "\treturn <div>${1:${TM_FILENAME_BASE}}</div>;",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ]
+  },
+  "Create Function Component": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cacfc",
+    "description": "Create Function Component",
+    "body": [
+      "import React from 'react';",
+      "",
+      "function ${1:${TM_FILENAME_BASE}}() {",
+      "\treturn <div>${1:${TM_FILENAME_BASE}}</div>;",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ]
+  }
+}

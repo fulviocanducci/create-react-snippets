@@ -1,0 +1,14 @@
+{
+  "Export Default React": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "caexd",
+    "description": "Export Default React",
+    "body": ["export default ${1:${TM_FILENAME_BASE}};"]
+  },
+  "Export React": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "caexg",
+    "description": "Export React",
+    "body": ["export { ${1:name} };"]
+  }
+}

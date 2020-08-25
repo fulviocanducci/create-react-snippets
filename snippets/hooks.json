@@ -1,0 +1,87 @@
+{
+  "Create Hook useState": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cahst",
+    "description": "Create Hook useState",
+    "body": [
+      "\tconst [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:initial});"
+    ]
+  },
+  "Create Hook useEffect": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cahef",
+    "description": "Create Hook useEffect",
+    "body": [
+      "useEffect(() => {",
+      "\tfunction ${1:name}() { }",
+      "\treturn () => { };",
+      "}, [${2:variable}])"
+    ]
+  },
+  "Create Hook useLayoutEffect": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cahel",
+    "description": "Create Hook useLayoutEffect",
+    "body": [
+      "useLayoutEffect(() => {",
+      "\tfunction ${1:name}() { }",
+      "\treturn () => { };",
+      "}, [${2:variable}])"
+    ]
+  },
+  "Create Hook useRef": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cahrf",
+    "description": "Create Hook useRef",
+    "body": ["\tconst ${1:name} = useRef();"]
+  },
+  "Create Hook useCallback": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cahcb",
+    "description": "Create Hook useCallback",
+    "body": [
+      "\tconst ${1:name} = useCallback(() => {",
+      "\t",
+      "\t}, [${2:var}]);"
+    ]
+  },
+  "Create Hook useMemo": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cahme",
+    "description": "Create Hook useMemo",
+    "body": ["\tconst ${1:name} = useMemo(() => { }, [${2:var}]);"]
+  },
+  "Create Hook useReducer": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cahrr",
+    "description": "Create Hook useReducer",
+    "body": [
+      "\tconst [${1:state}, ${2:dispatch}] = useReducer(${3:reducer}, ${4:initialArg}, ${5:init});"
+    ]
+  },
+  "Create Hook useImperativeHandler": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cahih",
+    "description": "Create Hook useImperativeHandle",
+    "body": [
+      "\tconst ${1:name} = useRef();",
+      "\tuseImperativeHandle(${2:ref}, () => ({",
+      "\t\tfocus: () => {",
+      "\t\t\t${1:name}.current.focus();",
+      "\t\t}",
+      "\t}));"
+    ]
+  },
+  "Create Hook useDebugValue": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cahdv",
+    "description": "Create Hook useDebugValue",
+    "body": ["\tuseDebugValue(${1:var});"]
+  },
+  "Create Hook useContext": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "cahhc",
+    "description": "Create Hook useContext",
+    "body": ["\tconst ${1:context} = useContext(${2:Context});"]
+  }
+}

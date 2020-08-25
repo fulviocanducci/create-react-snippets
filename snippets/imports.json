@@ -1,0 +1,26 @@
+{
+  "Import React": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "caimr",
+    "description": "Import React",
+    "body": ["import React from 'react';"]
+  },
+  "Import React with useState": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "caims",
+    "description": "Import React with useState",
+    "body": ["import React, { useState } from 'react';"]
+  },
+  "Import React with useState and useEffect": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "caime",
+    "description": "Import React with useState and useEffect",
+    "body": ["import React, { useState, useEffect } from 'react';"]
+  },
+  "Import React with useState and useEffect and useRef": {
+    "scope": "javascriptreact,javascript",
+    "prefix": "caimc",
+    "description": "Import React with useState and useEffect and useRef",
+    "body": ["import React, { useState, useEffect, useRef } from 'react';"]
+  }
+}
