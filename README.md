@@ -62,7 +62,3 @@ ext install canducci.canducci-reactjs-snippets
 |  `caafc →` | → | `Create Arrow Function Component`                     |
 |  `cacfc →` | → | `Create Function Component`                           |
 | |  | |
-
-## Keybindings
-
-Open Global methods with keybindings: <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>p</kbd>.
