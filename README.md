@@ -32,17 +32,17 @@ ext install canducci.canducci-reactjs-snippets
 
 |  Prefix    |   | Method                                                |
 | ---------- | - | ------------------------------------------------------|
-|  Imports   |   | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>i</kbd>           |
+|  Imports   |   |                                                       |
 |  `caimr →` | → | `Import React;`                                       |
 |  `caims →` | → | `Import React with useState;`                         |
 |  `caime →` | → | `Import React with useState and useEffect;`           |
 |  `caimc →` | → | `Import React with useState and useEffect and useRef` |
 |            |   |                                                       |
-|  Exports   |   |  <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>e</kbd>          |
+|  Exports   |   |                                                       |
 |  `caexd →` | → | `Export Default React`                                |
 |  `caexg →` | → | `Export React`                                        |
 |            |   |                                                       |
-|  Hooks     |   |  <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>h</kbd>          |
+|  Hooks     |   |                                                       |
 |  `cahst →` | → | `Create Hook useState`                                |
 |  `cahef →` | → | `Create Hook useEffect`                               |
 |  `cahel →` | → | `Create Hook useLayoutEffect`                         |
