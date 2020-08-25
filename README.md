@@ -32,7 +32,7 @@ ext install canducci.canducci-reactjs-snippets
 
 |  Prefix    |   | Method                                                |
 | ---------- | - | ------------------------------------------------------|
-|  Imports   | → | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>i</kbd>           |
+|  Imports   |   | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>i</kbd>           |
 |  `caimr →` | → | `Import React;`                                       |
 |  `caims →` | → | `Import React with useState;`                         |
 |  `caime →` | → | `Import React with useState and useEffect;`           |
